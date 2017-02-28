@@ -38,4 +38,19 @@ public class TestString {
         String uuid = UUID.randomUUID().toString().replaceAll("-", "");
         System.out.println(uuid);
     }
+
+    @Test
+    public void testSplit1() {
+        String str = "cb4daf619b3e446085a4026b85e33ad3.png";
+        String[] arr = str.split("\\.");
+        str = arr[0] + "_640x280" + "." + arr[1];
+        System.out.println(str);
+    }
+
+    @Test
+    public void testSplit2() {
+        String str = "aa";
+        String[] arr = str.split("\\|");
+        System.out.println(arr[0] + "######" );
+    }
 }

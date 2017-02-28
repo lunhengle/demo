@@ -63,8 +63,21 @@ public class TestDate {
         cal.set(14, 0);
         return cal.getTime();
     }
+
     @Test
-    public void testTimestamp(){
-        System.out.println( new Timestamp(System.currentTimeMillis()));
+    public void testTimestamp() {
+        System.out.println(new Timestamp(System.currentTimeMillis()));
+    }
+
+    @Test
+    public void testTime() {
+        long start = System.currentTimeMillis();
+        try {
+            Thread.sleep(100);
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+        }
+        long end = System.currentTimeMillis();
+        System.out.println(end - start);
     }
 }
