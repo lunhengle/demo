@@ -36,9 +36,9 @@ public class TestSort {
     @Test
     public void testSelectSort() {
         for (int i = 0; i < a.length; i++) {
-            int position = i;
             int j = i + 1;
             int temp = a[i];
+            int position = i;
             for (; j < a.length; j++) {
                 if (temp > a[j]) {
                     position = j;
@@ -58,8 +58,8 @@ public class TestSort {
     @Test
     public void testBubbleSort() {
         for (int i = 0; i < a.length - 1; i++) {
+            int temp;
             for (int j = 0; j < a.length - 1 - i; j++) {
-                int temp;
                 if (a[j] > a[j + 1]) {
                     temp = a[j];
                     a[j] = a[j + 1];
