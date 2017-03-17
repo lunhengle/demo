@@ -35,13 +35,12 @@ public class TestSort {
      */
     @Test
     public void testSelectSort() {
-        int position;
         for (int i = 0; i < a.length; i++) {
-            position = i;
+            int position = i;
             int j = i + 1;
             int temp = a[i];
             for (; j < a.length; j++) {
-                if (a[j] < temp) {
+                if (temp > a[j]) {
                     position = j;
                     temp = a[j];
                 }
@@ -52,12 +51,91 @@ public class TestSort {
     }
 
     /**
+     * 冒泡排序法.
+     * 基本思想：在要排序的一组数中，对当前还未排好序的范围内的全部数，自上而下对相邻的两个数依次比较和调整，让较大的数往下沉，较小的往上冒。
+     * 即每当相邻的数比较后发现它们与要求的排序相反时，就将它们互换。
+     */
+    @Test
+    public void testBubbleSort() {
+        for (int i = 0; i < a.length - 1; i++) {
+            for (int j = 0; j < a.length - 1 - i; j++) {
+                int temp;
+                if (a[j] > a[j + 1]) {
+                    temp = a[j];
+                    a[j] = a[j + 1];
+                    a[j + 1] = temp;
+                }
+            }
+        }
+    }
+
+    /**
+     * 快速排序法.
+     * 基本思想：选择一个基准元素，通常选择第一个元素或者最后一个元素，通过扫描将待排序序列分成两部分，一部分比基准小，一部分大于等于基准元素
+     * 此时基准元素在其排好序后的正确位置，然后同样的方法递归地排序划分两部分。
+     */
+    @Test
+    public void testQuickSort() {
+        quick(a);
+    }
+
+    /**
+     * 得到中间值.
+     *
+     * @param list 数组列表
+     * @param low  低
+     * @param high 高
+     * @return 中间值
+     */
+    public int getMiddle(int[] list, int low, int high) {
+        int temp = list[low];
+        while (low < high) {
+            while (low < high && list[high] >= temp) {
+                high--;
+            }
+            list[low] = list[high];
+            while (low < high && list[low] <= temp) {
+                low++;
+            }
+            list[high] = list[low];
+        }
+        list[low] = temp;
+        return low;
+    }
+
+    /**
+     * 快查.
+     *
+     * @param list 查询列表.
+     * @param low  低
+     * @param high 高
+     */
+    public void quickSort(int[] list, int low, int high) {
+        if (low < high) {
+            int middle = getMiddle(list, low, high);
+            quickSort(list, low, middle - 1);
+            quickSort(list, middle + 1, high);
+        }
+    }
+
+    /**
+     * 查询.
+     *
+     * @param a 数组
+     */
+    public void quick(int[] a) {
+        if (a.length > 0) {
+            quickSort(a, 0, a.length - 1);
+        }
+    }
+
+    /**
      * 排序后的数组.
      */
     @After
     public void after() {
-        for (int i = 0; i < a.length; i++) {
-            System.out.println(a[i]);
+        for (int i : a) {
+            System.out.println(i);
         }
     }
 }
