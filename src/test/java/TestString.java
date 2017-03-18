@@ -51,6 +51,12 @@ public class TestString {
     public void testSplit2() {
         String str = "aa";
         String[] arr = str.split("\\|");
-        System.out.println(arr[0] + "######" );
+        System.out.println(arr[0] + "######");
+    }
+
+    @Test
+    public void testUpperCase() {
+        String str="";
+        System.out.println(str.toUpperCase());
     }
 }
