@@ -56,7 +56,23 @@ public class TestString {
 
     @Test
     public void testUpperCase() {
-        String str="";
+        String str = "";
         System.out.println(str.toUpperCase());
+    }
+
+    @Test
+    public void testSplit3() {
+        String str = ",a,b,c";
+        if (null != str && str.startsWith(",")) {
+            str = str.substring(1, str.length());
+        }
+        System.out.println(str);
+    }
+
+    @Test
+    public void testSplit4(){
+        String str="1,2,3,";
+        str=str.substring(0,str.length()-1);
+        System.out.println(str);
     }
 }
