@@ -70,9 +70,24 @@ public class TestString {
     }
 
     @Test
-    public void testSplit4(){
-        String str="1,2,3,";
-        str=str.substring(0,str.length()-1);
+    public void testSplit4() {
+        String str = "1,2,3,";
+        str = str.substring(0, str.length() - 1);
         System.out.println(str);
+    }
+
+    @Test
+    public void testReplace() {
+        String str = "你好世界，\n你好hello\n";
+        str = str.replaceAll("\n", "<br/>");
+        System.out.println(str);
+    }
+
+    @Test
+    public void testReplace1() {
+        String str = "你好世界，/n你好hello/n";
+        str = str.replaceAll("/n", "<br/>");
+        System.out.println(str);
+
     }
 }
