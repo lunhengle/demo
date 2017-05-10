@@ -58,10 +58,9 @@ public class TestSort {
     @Test
     public void testBubbleSort() {
         for (int i = 0; i < a.length - 1; i++) {
-            int temp;
-            for (int j = 0; j < a.length - 1 - i; j++) {
+            for (int j = 0; j < a.length - i - 1; j++) {
                 if (a[j] > a[j + 1]) {
-                    temp = a[j];
+                    int temp = a[j];
                     a[j] = a[j + 1];
                     a[j + 1] = temp;
                 }
@@ -123,7 +122,7 @@ public class TestSort {
      *
      * @param a 数组
      */
-    public void quick(int[] a) {
+    private void quick(int[] a) {
         if (a.length > 0) {
             quickSort(a, 0, a.length - 1);
         }
