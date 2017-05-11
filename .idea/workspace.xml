@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0618804a-59e6-4c7c-9b3c-7bb8b3b7df8d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/demo.iml" afterPath="$PROJECT_DIR$/demo.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestSort.java" afterPath="$PROJECT_DIR$/src/test/java/TestSort.java" />
     </list>
     <ignored path="demo.iws" />
@@ -31,8 +29,8 @@
       <file leaf-file-name="TestSort.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="386">
-              <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+            <state relative-caret-position="156">
+              <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -890,7 +888,7 @@
       <workItem from="1493277814686" duration="31000" />
       <workItem from="1493278238957" duration="600000" />
       <workItem from="1494405442036" duration="3806000" />
-      <workItem from="1494410284890" duration="486000" />
+      <workItem from="1494410284890" duration="1490000" />
     </task>
     <task id="LOCAL-00001" summary="多线程">
       <created>1481784863175</created>
@@ -962,7 +960,14 @@
       <option name="project" value="LOCAL" />
       <updated>1494405488746</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="常用排序算法">
+      <created>1494410786975</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1494410786975</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -978,14 +983,8 @@
     <history-entry file="TestSort_testBubbleSort - 2017.05.10 at 18h 06m 08s.xml">
       <configuration name="TestSort.testBubbleSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSort_testInsertSort - 2017.05.10 at 17h 05m 12s.xml">
-      <configuration name="TestSort.testInsertSort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSort_testInsertSort - 2017.05.10 at 17h 10m 19s.xml">
-      <configuration name="TestSort.testInsertSort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSort_testInsertSort - 2017.05.10 at 17h 15m 11s.xml">
-      <configuration name="TestSort.testInsertSort" configurationId="JUnit" />
+    <history-entry file="TestSort_testBubbleSort - 2017.05.11 at 09h 28m 58s.xml">
+      <configuration name="TestSort.testBubbleSort" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TestSort_testInsertSort - 2017.05.10 at 17h 15m 42s.xml">
       <configuration name="TestSort.testInsertSort" configurationId="JUnit" />
@@ -996,9 +995,15 @@
     <history-entry file="TestSort_testInsertSort - 2017.05.10 at 17h 22m 28s.xml">
       <configuration name="TestSort.testInsertSort" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestSort_testInsertSort - 2017.05.11 at 09h 27m 28s.xml">
+      <configuration name="TestSort.testInsertSort" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestSort_testInsertSort - 2017.05.11 at 09h 27m 33s.xml">
+      <configuration name="TestSort.testInsertSort" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="174280000" />
+    <option name="totallyTimeSpent" value="175284000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1023,7 +1028,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32936078" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39804772" sideWeight="0.46162048" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.329718" sideWeight="0.46162048" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2468017" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1514,8 +1519,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="57" column="9" lean-forward="true" selection-start-line="57" selection-start-column="9" selection-end-line="57" selection-end-column="9" />
+        <state relative-caret-position="156">
+          <caret line="53" column="13" lean-forward="true" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
           <folding />
         </state>
       </provider>
