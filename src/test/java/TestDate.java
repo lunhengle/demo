@@ -80,4 +80,16 @@ public class TestDate {
         long end = System.currentTimeMillis();
         System.out.println(end - start);
     }
+
+    /**
+     * 测试生日.
+     */
+    @Test
+    public void testBirthday() {
+        Date date = new Date();
+        System.out.println(date);
+        SimpleDateFormat sf1 = new SimpleDateFormat("MM-dd");
+        String str = sf1.format(date);
+        System.out.print(str);
+    }
 }
