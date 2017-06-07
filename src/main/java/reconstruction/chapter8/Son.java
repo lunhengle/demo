@@ -5,10 +5,7 @@ package reconstruction.chapter8;
  */
 public class Son extends Sub {
     private int _cap;
-
-    private Son() {
-
-    }
+    public Son(){}
 
     public Son(int low, int hight, int cap) {
         super(low, hight);
