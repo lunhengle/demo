@@ -88,6 +88,12 @@ public class TestString {
         String str = "你好世界，/n你好hello/n";
         str = str.replaceAll("/n", "<br/>");
         System.out.println(str);
+    }
 
+    @Test
+    public void testReplace2() {
+        String str = "你好,我是你的小秘书$$";
+        str=str.replace("$$","丫丫");
+        System.out.println(str);
     }
 }
