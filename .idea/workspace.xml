@@ -1,8 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0618804a-59e6-4c7c-9b3c-7bb8b3b7df8d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/EscapeAnalysis.java" />
+    <list default="true" id="0618804a-59e6-4c7c-9b3c-7bb8b3b7df8d" name="Default" comment="nio 练习">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestSort.java" afterPath="$PROJECT_DIR$/src/test/java/TestSort.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/TestString.java" afterPath="$PROJECT_DIR$/src/test/java/TestString.java" />
@@ -34,10 +33,8 @@
             <state relative-caret-position="184">
               <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
               <folding>
-                <element signature="e#244#245#0" expanded="false" />
-                <element signature="e#294#295#0" expanded="false" />
-                <element signature="e#322#323#0" expanded="false" />
-                <element signature="e#374#375#0" expanded="false" />
+                <element signature="e#167#168#0" expanded="true" />
+                <element signature="e#218#219#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -48,10 +45,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="161">
               <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-              <folding>
-                <element signature="e#285#286#0" expanded="false" />
-                <element signature="e#317#318#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -61,10 +55,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="115">
               <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-              <folding>
-                <element signature="e#201#202#0" expanded="false" />
-                <element signature="e#238#239#0" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -82,8 +73,8 @@
       <file leaf-file-name="TestString.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestString.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2139">
-              <caret line="96" column="30" lean-forward="false" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
+            <state relative-caret-position="171">
+              <caret line="103" column="30" lean-forward="true" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -92,18 +83,8 @@
       <file leaf-file-name="TestNumber.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestNumber.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="475">
+            <state relative-caret-position="575">
               <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestSort.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestSort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="61" column="56" lean-forward="true" selection-start-line="61" selection-start-column="56" selection-end-line="61" selection-end-column="56" />
               <folding />
             </state>
           </provider>
@@ -112,8 +93,8 @@
       <file leaf-file-name="EscapeAnalysis.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/EscapeAnalysis.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+            <state relative-caret-position="322">
+              <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
               <folding>
                 <element signature="e#196#197#0" expanded="true" />
                 <element signature="e#235#236#0" expanded="true" />
@@ -127,9 +108,7 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="276">
               <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -139,10 +118,17 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="138">
               <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-              <folding>
-                <element signature="e#225#226#0" expanded="false" />
-                <element signature="e#278#279#0" expanded="false" />
-              </folding>
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestSort.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestSort.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -216,8 +202,8 @@
         <option value="$PROJECT_DIR$/src/main/java/sub/Child.java" />
         <option value="$PROJECT_DIR$/src/main/java/reconstruction/chapter8/Son.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestParent.java" />
-        <option value="$PROJECT_DIR$/src/test/java/TestString.java" />
         <option value="$PROJECT_DIR$/src/main/java/EscapeAnalysis.java" />
+        <option value="$PROJECT_DIR$/src/test/java/TestString.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestSort.java" />
       </list>
     </option>
@@ -577,7 +563,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestSort.testBubbleSort">
+  <component name="RunManager" selected="JUnit.TestSort.testInsertSort">
     <configuration default="false" name="TestSort.testInsertSort" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="demo" />
@@ -607,27 +593,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="TestSort" />
       <option name="METHOD_NAME" value="testBubbleSort" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="false" name="TestSub.testSub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="demo" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TestSub" />
-      <option name="METHOD_NAME" value="testSub" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -675,6 +640,27 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="demo" />
       <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="TestString.testDouble" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="demo" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestString" />
+      <option name="METHOD_NAME" value="testDouble" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1089,17 +1075,17 @@
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="JUnit.TestSort.testInsertSort" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.TestSort.testBubbleSort" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.TestSub.testSub" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.TestString.testReplace2" />
-      <item index="4" class="java.lang.String" itemvalue="Application.EscapeAnalysis$Foo" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.TestString.testReplace2" />
+      <item index="3" class="java.lang.String" itemvalue="Application.EscapeAnalysis$Foo" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.TestString.testDouble" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.TestSort.testBubbleSort" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.TestSort.testInsertSort" />
-        <item index="2" class="java.lang.String" itemvalue="Application.EscapeAnalysis$Foo" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.TestString.testReplace2" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.TestSub.testSub" />
+        <item index="0" class="java.lang.String" itemvalue="JUnit.TestSort.testInsertSort" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.TestSort.testBubbleSort" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.TestString.testDouble" />
+        <item index="3" class="java.lang.String" itemvalue="Application.EscapeAnalysis$Foo" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.TestString.testReplace2" />
       </list>
     </recent_temporary>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
@@ -1222,7 +1208,8 @@
       <workItem from="1495614995317" duration="132000" />
       <workItem from="1495616413902" duration="774000" />
       <workItem from="1496801593223" duration="870000" />
-      <workItem from="1496912723750" duration="1807000" />
+      <workItem from="1496912723750" duration="2514000" />
+      <workItem from="1497259837556" duration="1452000" />
     </task>
     <task id="LOCAL-00001" summary="多线程">
       <created>1481784863175</created>
@@ -1350,43 +1337,50 @@
       <option name="project" value="LOCAL" />
       <updated>1496801627780</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="nio 练习">
+      <created>1496915282440</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1496915282440</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestNio_testNio - 2017.05.16 at 17h 28m 52s.xml">
-      <configuration name="TestNio.testNio" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSort_testBubbleSort - 2017.05.18 at 10h 17m 22s.xml">
+    <history-entry file="TestSort_testBubbleSort - 2017.06.12 at 18h 27m 29s.xml">
       <configuration name="TestSort.testBubbleSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSort_testBubbleSort - 2017.05.18 at 10h 17m 38s.xml">
+    <history-entry file="TestSort_testBubbleSort - 2017.06.12 at 18h 32m 08s.xml">
       <configuration name="TestSort.testBubbleSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSort_testBubbleSort - 2017.06.08 at 17h 25m 53s.xml">
-      <configuration name="TestSort.testBubbleSort" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestSort_testInsertSort - 2017.05.18 at 10h 15m 12s.xml">
+    <history-entry file="TestSort_testInsertSort - 2017.06.12 at 18h 29m 13s.xml">
       <configuration name="TestSort.testInsertSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSort_testInsertSort - 2017.06.08 at 17h 23m 51s.xml">
+    <history-entry file="TestSort_testInsertSort - 2017.06.12 at 18h 29m 34s.xml">
       <configuration name="TestSort.testInsertSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSort_testInsertSort - 2017.06.08 at 17h 23m 56s.xml">
+    <history-entry file="TestSort_testInsertSort - 2017.06.12 at 18h 32m 29s.xml">
       <configuration name="TestSort.testInsertSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestString_testReplace2 - 2017.06.07 at 10h 16m 02s.xml">
-      <configuration name="TestString.testReplace2" configurationId="JUnit" />
+    <history-entry file="TestSort_testInsertSort - 2017.06.12 at 18h 32m 53s.xml">
+      <configuration name="TestSort.testInsertSort" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSub_testSub - 2017.05.22 at 17h 07m 59s.xml">
-      <configuration name="TestSub.testSub" configurationId="JUnit" />
+    <history-entry file="TestString_testDouble - 2017.06.12 at 17h 32m 47s.xml">
+      <configuration name="TestString.testDouble" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestSub_testSub - 2017.05.22 at 17h 08m 35s.xml">
-      <configuration name="TestSub.testSub" configurationId="JUnit" />
+    <history-entry file="TestString_testDouble - 2017.06.12 at 17h 34m 12s.xml">
+      <configuration name="TestString.testDouble" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestString_testDouble - 2017.06.12 at 17h 34m 28s.xml">
+      <configuration name="TestString.testDouble" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestString_testDouble - 2017.06.12 at 17h 34m 45s.xml">
+      <configuration name="TestString.testDouble" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="197476000" />
+    <option name="totallyTimeSpent" value="199635000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -1411,7 +1405,7 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286334" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.55314535" sideWeight="0.46162048" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5314534" sideWeight="0.46162048" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20309168" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1818,7 +1812,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="966">
           <caret line="53" column="24" lean-forward="false" selection-start-line="53" selection-start-column="24" selection-end-line="53" selection-end-column="24" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1833,7 +1826,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5313">
           <caret line="256" column="37" lean-forward="false" selection-start-line="256" selection-start-column="37" selection-end-line="256" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1841,7 +1833,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1849,7 +1840,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1857,9 +1847,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1868,10 +1856,8 @@
         <state relative-caret-position="184">
           <caret line="10" column="44" lean-forward="false" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
           <folding>
-            <element signature="e#244#245#0" expanded="false" />
-            <element signature="e#294#295#0" expanded="false" />
-            <element signature="e#322#323#0" expanded="false" />
-            <element signature="e#374#375#0" expanded="false" />
+            <element signature="e#167#168#0" expanded="true" />
+            <element signature="e#218#219#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1880,10 +1866,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="138">
           <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-          <folding>
-            <element signature="e#225#226#0" expanded="false" />
-            <element signature="e#278#279#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1891,10 +1874,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="e#201#202#0" expanded="false" />
-            <element signature="e#238#239#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1902,10 +1882,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
           <caret line="7" column="18" lean-forward="false" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
-          <folding>
-            <element signature="e#285#286#0" expanded="false" />
-            <element signature="e#317#318#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1919,8 +1896,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/EscapeAnalysis.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="36" lean-forward="true" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="322">
+          <caret line="16" column="36" lean-forward="false" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
           <folding>
             <element signature="e#196#197#0" expanded="true" />
             <element signature="e#235#236#0" expanded="true" />
@@ -1928,26 +1905,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestString.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestNumber.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2139">
-          <caret line="96" column="30" lean-forward="false" selection-start-line="96" selection-start-column="30" selection-end-line="96" selection-end-column="30" />
+        <state relative-caret-position="575">
+          <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestNumber.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestString.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="475">
-          <caret line="32" column="34" lean-forward="false" selection-start-line="32" selection-start-column="34" selection-end-line="32" selection-end-column="34" />
+        <state relative-caret-position="171">
+          <caret line="103" column="30" lean-forward="true" selection-start-line="103" selection-start-column="30" selection-end-line="103" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestSort.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="61" column="56" lean-forward="true" selection-start-line="61" selection-start-column="56" selection-end-line="61" selection-end-column="56" />
+        <state relative-caret-position="276">
+          <caret line="29" column="0" lean-forward="true" selection-start-line="29" selection-start-column="0" selection-end-line="29" selection-end-column="0" />
           <folding />
         </state>
       </provider>

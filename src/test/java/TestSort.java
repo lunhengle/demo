@@ -21,7 +21,7 @@ public class TestSort {
         for (int i = 1; i < a.length; i++) {
             int j = i - 1;
             int temp = a[i];
-            for (; j >= 0 && temp < a[j]; j--) {
+            for (; j >= 0 && temp > a[j]; j--) {
                 a[j + 1] = a[j];
             }
             a[j + 1] = temp;
@@ -60,7 +60,7 @@ public class TestSort {
         for (int i = 0; i < a.length - 1; i++) {
             int temp;
             for (int j = 0; j < a.length - i - 1; j++) {
-                if (a[j + 1] < a[j]) {
+                if (a[j + 1] > a[j]) {
                     temp = a[j + 1];
                     a[j + 1] = a[j];
                     a[j] = temp;

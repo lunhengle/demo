@@ -93,7 +93,14 @@ public class TestString {
     @Test
     public void testReplace2() {
         String str = "你好,我是你的小秘书$$";
-        str=str.replace("$$","丫丫");
+        str = str.replace("$$", "丫丫");
         System.out.println(str);
+    }
+
+    @Test
+    public void testDouble() {
+        Double d = 0.0;
+        int i = d.intValue();
+        System.out.println(i);
     }
 }
