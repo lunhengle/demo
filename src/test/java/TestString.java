@@ -103,4 +103,39 @@ public class TestString {
         int i = d.intValue();
         System.out.println(i);
     }
+
+    @Test
+    public void testString1() {
+        String str = "abc";
+        String str1 = "abc";
+        Assert.assertEquals(true, str == str1);
+        Assert.assertEquals(true, str.equals(str1));
+    }
+
+    @Test
+    public void testString2() {
+        String str = new String("abc");
+        String str1 = new String("abc");
+        Assert.assertEquals(true, str.equals(str1));
+        Assert.assertEquals(true, str == str1);
+    }
+
+    @Test
+    public void testString3() {
+        String str = "abc";
+        String str1 = new String("abc");
+        Assert.assertEquals(true, str.equals(str1));
+        Assert.assertEquals(true, str == str1);
+    }
+
+    @Test
+    public void testString4() {
+        String str = "a";
+        String str1 = "bc";
+        String str2 = "abc";
+        String str3 = str + str1;
+        //Assert.assertEquals(true, str2 == str3);
+        str3 = (str + str1).intern();
+        Assert.assertEquals(true, str2 == str3);
+    }
 }
