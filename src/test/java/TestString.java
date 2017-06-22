@@ -138,4 +138,18 @@ public class TestString {
         str3 = (str + str1).intern();
         Assert.assertEquals(true, str2 == str3);
     }
+
+    @Test
+    public void testString5() {
+        String str = "MAC|ELC";
+        str = str.replace("|ELC", "");
+        System.out.println(str);
+    }
+
+    @Test
+    public void testString6() {
+        String str = "MAC";
+        String[] strs = str.split("\\|");
+        System.out.println(strs[0]);
+    }
 }
